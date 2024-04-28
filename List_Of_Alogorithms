@@ -1,3 +1,30 @@
+Number Theory:
+Sieve of Eratosthenes (for prime numbers)
+Prime Factorization
+Euclidean Algorithm (for finding GCD)
+Modular Exponentiation
+Fermat's Little Theorem
+Chinese Remainder Theorem
+Fast Fourier Transform (FFT)
+
+String Algorithms:
+Rabin-Karp Algorithm (for string searching)
+Knuth-Morris-Pratt Algorithm (KMP)
+Boyer-Moore Algorithm
+Longest Palindromic Substring
+String Reversal
+String Matching Algorithms
+
+Backtracking:
+N-Queens Problem
+Sudoku Solver
+Hamiltonian Cycle
+Knight's Tour Problem
+Rat in a Maze Problem
+Word Search
+Subset Generation
+
+
 Sorting and Searching:
 Bubble Sort
 Selection Sort
@@ -15,6 +42,16 @@ Huffman Coding
 Job Scheduling Problem
 Minimum Spanning Tree (using Kruskal's or Prim's)
 Dijkstra's Algorithm 
+
+Divide and Conquer:
+Strassen's Algorithm (for matrix multiplication)
+Closest Pair of Points
+Counting Inversions
+Karatsuba Algorithm (for fast multiplication of large numbers)
+Maximum Subarray Problem (Kadane's Algorithm)
+Quickselect Algorithm (for finding the kth smallest element in an array)
+Ternary Search
+
 
 
 Graph Algorithms:
@@ -44,54 +81,15 @@ Minimum Cost Path
 Maximum Subarray Sum
 
 
-
-
-
-
-String Algorithms:
-Rabin-Karp Algorithm (for string searching)
-Knuth-Morris-Pratt Algorithm (KMP)
-Boyer-Moore Algorithm
-Longest Palindromic Substring
-String Reversal
-String Matching Algorithms
-
-
-
 Tree Algorithms:
 Tree Traversal (Inorder, Preorder, Postorder)
 Lowest Common Ancestor (LCA)
 Binary Search Tree (BST) operations (insertion, deletion, search)
 
-Number Theory:
-Sieve of Eratosthenes (for prime numbers)
-Prime Factorization
-Euclidean Algorithm (for finding GCD)
-Modular Exponentiation
-Fermat's Little Theorem
-Chinese Remainder Theorem
-Fast Fourier Transform (FFT)
+
 
 
 Level :2 
-Divide and Conquer:
-Strassen's Algorithm (for matrix multiplication)
-Closest Pair of Points
-Counting Inversions
-Karatsuba Algorithm (for fast multiplication of large numbers)
-Maximum Subarray Problem (Kadane's Algorithm)
-Quickselect Algorithm (for finding the kth smallest element in an array)
-Ternary Search
-
-Backtracking:
-N-Queens Problem
-Sudoku Solver
-Hamiltonian Cycle
-Knight's Tour Problem
-Rat in a Maze Problem
-Word Search
-Subset Generation
-
 
 Dynamic Programming (Advanced):
 All Pairs Shortest Path
@@ -114,7 +112,6 @@ Minimum Cut in a Flow Network (Stoer-Wagner Algorithm)
 2-SAT Problem (Strongly Connected Components)
 Johnson's Algorithm (for sparse graphs)
 Minimum Spanning Arborescence (Chu-Liu/Edmonds Algorithm)
-
 
 Geometric Algorithms:
 Convex Hull (Graham Scan, Jarvis March)
