@@ -8,6 +8,14 @@ Heap Sort
 Binary Search
 Linear Search
 
+Greedy Algorithms:
+Activity Selection Problem
+Fractional Knapsack Problem
+Huffman Coding
+Job Scheduling Problem
+Minimum Spanning Tree (using Kruskal's or Prim's)
+Dijkstra's Algorithm 
+
 
 Graph Algorithms:
 Breadth-First Search (BFS)
@@ -37,12 +45,7 @@ Maximum Subarray Sum
 
 
 
-Greedy Algorithms:
-Activity Selection Problem
-Fractional Knapsack Problem
-Huffman Coding
-Job Scheduling Problem
-Minimum Spanning Tree (using Kruskal's or Prim's)
+
 
 
 String Algorithms:
