@@ -1,0 +1,143 @@
+Sorting and Searching:
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+Heap Sort
+Binary Search
+Linear Search
+
+
+Graph Algorithms:
+Breadth-First Search (BFS)
+Depth-First Search (DFS)
+Dijkstra's Algorithm
+Bellman-Ford Algorithm
+Floyd-Warshall Algorithm
+Prim's Algorithm
+Kruskal's Algorithm
+Topological Sorting
+Tarjan's Algorithm (for strongly connected components)
+A* Search Algorithm
+
+
+Dynamic Programming:
+Fibonacci Series (using dynamic programming)
+Longest Common Subsequence (LCS)
+Longest Increasing Subsequence (LIS)
+0/1 Knapsack Problem
+Coin Change Problem
+Rod Cutting Problem
+Edit Distance
+Matrix Chain Multiplication
+Subset Sum Problem
+Minimum Cost Path
+Maximum Subarray Sum
+
+
+
+Greedy Algorithms:
+Activity Selection Problem
+Fractional Knapsack Problem
+Huffman Coding
+Job Scheduling Problem
+Minimum Spanning Tree (using Kruskal's or Prim's)
+
+
+String Algorithms:
+Rabin-Karp Algorithm (for string searching)
+Knuth-Morris-Pratt Algorithm (KMP)
+Boyer-Moore Algorithm
+Longest Palindromic Substring
+String Reversal
+String Matching Algorithms
+
+
+
+Tree Algorithms:
+Tree Traversal (Inorder, Preorder, Postorder)
+Lowest Common Ancestor (LCA)
+Binary Search Tree (BST) operations (insertion, deletion, search)
+
+Number Theory:
+Sieve of Eratosthenes (for prime numbers)
+Prime Factorization
+Euclidean Algorithm (for finding GCD)
+Modular Exponentiation
+Fermat's Little Theorem
+Chinese Remainder Theorem
+Fast Fourier Transform (FFT)
+
+
+Level :2 
+
+Divide and Conquer:
+Strassen's Algorithm (for matrix multiplication)
+Closest Pair of Points
+Counting Inversions
+Karatsuba Algorithm (for fast multiplication of large numbers)
+Maximum Subarray Problem (Kadane's Algorithm)
+Quickselect Algorithm (for finding the kth smallest element in an array)
+Ternary Search
+
+Backtracking:
+N-Queens Problem
+Sudoku Solver
+Hamiltonian Cycle
+Knight's Tour Problem
+Rat in a Maze Problem
+Word Search
+Subset Generation
+
+
+Dynamic Programming (Advanced):
+All Pairs Shortest Path
+Optimal Binary Search Tree
+Maximum Bipartite Matching (using augmenting paths)
+Egg Dropping Problem
+Longest Common Substring
+Longest Palindromic Subsequence
+Maximum Sum Increasing Subsequence
+Longest Zigzag Subsequence
+Partition Problem (Equal Subset Sum)
+Word Break Problem
+
+
+Graph Algorithms (Advanced):
+Articulation Points and Bridges
+Biconnected Components
+Network Flow Algorithms (Ford-Fulkerson, Edmonds-Karp)
+Minimum Cut in a Flow Network (Stoer-Wagner Algorithm)
+2-SAT Problem (Strongly Connected Components)
+Johnson's Algorithm (for sparse graphs)
+Minimum Spanning Arborescence (Chu-Liu/Edmonds Algorithm)
+
+
+Geometric Algorithms:
+Convex Hull (Graham Scan, Jarvis March)
+Line Intersection
+Closest Pair of Points in 2D/3D
+Polygon Triangulation
+Rotating Calipers (for finding the diameter of a convex polygon)
+Sweep Line Algorithm (for line segment intersection)
+
+Data Structures:
+Trie (Prefix Tree)
+Segment Tree
+Fenwick Tree (Binary Indexed Tree)
+Disjoint Set Union (Union-Find)
+Skip List
+AVL Tree
+B-tree
+Radix Tree (Trie with radix)
+Bloom Filter
+Splay Tree
+
+Miscellaneous:
+Majority Element (Boyer-Moore Voting Algorithm)
+Karger's Algorithm (for minimum cut in an undirected graph)
+
+
+
+
