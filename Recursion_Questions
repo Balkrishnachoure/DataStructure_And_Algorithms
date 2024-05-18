@@ -1,1 +1,66 @@
 
+
+
+Factorial Calculation
+Write a recursive function to calculate the factorial of a given number n.
+
+Fibonacci Sequence
+Write a recursive function to compute the n-th Fibonacci number.
+
+Sum of Digits
+Write a recursive function to find the sum of digits of a given integer.
+
+String Reversal
+Write a recursive function to reverse a given string.
+
+Binary Search
+Implement a recursive binary search algorithm.
+
+Power Calculation
+Write a recursive function to calculate x raised to the power n.
+
+Greatest Common Divisor (GCD)
+Implement a recursive function to find the GCD of two numbers using Euclid's algorithm.
+
+Palindrome Check
+Write a recursive function to check if a given string is a palindrome.
+
+Tower of Hanoi
+Solve the Tower of Hanoi problem for n disks.
+
+Sum of Array
+Write a recursive function to find the sum of all elements in an array.
+
+
+
+Permutations of a String
+Write a recursive function to generate all permutations of a given string.
+
+Combination Sum
+Given an array of distinct integers and a target sum, write a recursive function to find all unique combinations where the sum is equal to the target.
+
+N-Queens Problem
+Solve the N-Queens problem using recursion.
+
+Sudoku Solver
+Implement a recursive solution to solve a given Sudoku puzzle.
+
+Word Break Problem
+Given a string and a dictionary of words, write a recursive function to determine if the string can be segmented into a space-separated sequence of dictionary words.
+
+Longest Increasing Subsequence
+Write a recursive function to find the length of the longest increasing subsequence in an array.
+
+Kth Symbol in Grammar
+Write a recursive function to find the K-th symbol in the grammar described by a specific set of rules (LeetCode problem).
+
+Count of Subsets with a Given Sum
+Write a recursive function to count the number of subsets of a given array that sum up to a given target.
+
+Word Search II
+Given a 2D board and a list of words, write a recursive function to find all words in the board.
+
+Expression Add Operators
+Given a string that contains only digits, write a recursive function to add binary operators (+, -, *) between the digits to make the expression evaluate to a target value (LeetCode problem).
+
+
