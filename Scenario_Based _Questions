@@ -1,0 +1,33 @@
+1. Real-time Ticket Booking System
+You are designing a ticket booking system for an event. Users need to book tickets in real-time, and cancellations may happen as well. You need to ensure that the tickets are assigned to users in the order they request them. Which data structure would you use to handle this?
+
+2. Auto-suggestion in Search Engines
+In a search engine, users type queries into a search bar. You want to implement a feature that shows the top 5 most relevant suggestions based on the prefix typed by the user. Which data structure should be used for efficiently storing and searching these suggestions?
+
+3. Social Media News Feed
+You are tasked with designing a social media platform where each user has a news feed that shows posts from their friends in reverse chronological order (most recent first). Which data structure should you use to implement this feed?
+
+4. Undo Operation in a Text Editor
+You are implementing a text editor that allows users to undo their last operations. What data structure would you use to implement the undo functionality efficiently?
+
+5. Traffic Signal Simulation
+In a traffic signal simulation, vehicles are waiting at a red light, and they should pass the intersection in the order they arrived. Which data structure would be most suitable to manage the vehicles waiting at the signal?
+
+6. Flight Reservation System
+You need to design a system where each flight has a limited number of seats. The system should quickly tell if a seat is available, allow booking a seat, or cancel a reservation. What data structure should you use to store the available and booked seats?
+
+7. Browser History Navigation
+In a web browser, users should be able to navigate back and forth between web pages they visited. Which data structure would you use to implement this feature?
+
+8. Efficient Data Retrieval by Key
+You are designing a system where you need to store large amounts of data and retrieve it efficiently using a unique key, such as a product catalog with unique IDs. Which data structure is best suited for this?
+
+9. Stock Price Monitoring
+You are tasked with building a system to monitor stock prices. At any point, you need to efficiently retrieve the minimum or maximum stock price recorded in the last hour. What data structure would you use?
+
+10. File System Organization
+You are designing a hierarchical file system where directories can contain subdirectories and files. The system should allow efficient traversal and search for files. Which data structure is the most appropriate for this?
+
+11. Customer Support System
+You are building a customer support system where queries are resolved in the order they are received, but high-priority queries should be addressed before others. Which data structure would you use to implement this?
+
