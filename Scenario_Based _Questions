@@ -1,33 +1,98 @@
 1. Real-time Ticket Booking System
 You are designing a ticket booking system for an event. Users need to book tickets in real-time, and cancellations may happen as well. You need to ensure that the tickets are assigned to users in the order they request them. Which data structure would you use to handle this?
+Ans:
+For a real-time ticket booking system where you need to ensure that tickets are assigned to users in the order they request them, a queue data structure would be the most appropriate choice.
+A queue operates on a first-in, first-out (FIFO) principle, which aligns perfectly with the requirement to process ticket bookings in the order they are received. Here's how it can be used in your system:
+
+Enqueue Operation: When a user requests a ticket, their request is added (or enqueued) to the end of the queue.
+Dequeue Operation: When a ticket is assigned, the request at the front of the queue is removed (or dequeued) and processed.
+Cancellation Handling: If a cancellation occurs, you may need to implement additional logic to handle reordering or adjusting the queue as required.
+
+Using a queue ensures that ticket assignments are fair and orderly, maintaining the integrity of the booking process.CopyRegenerate
+
+---------------------------
 
 2. Auto-suggestion in Search Engines
 In a search engine, users type queries into a search bar. You want to implement a feature that shows the top 5 most relevant suggestions based on the prefix typed by the user. Which data structure should be used for efficiently storing and searching these suggestions?
+Ans .
+To efficiently store and search for suggestions based on the prefix typed by the user in a search engine, a Trie (pronounced "try") data structure is ideal.
+Reasons for using a Trie:
+Prefix Searching: A Trie is specifically designed for prefix searching. It allows for quick retrieval of words that share a common prefix, which is precisely what is needed for auto-suggestions.
 
+
+Efficiency: The time complexity for inserting and searching in a Trie is O(m), where m is the length of the input string (query). This makes it efficient for handling a large number of suggestions.
+
+
+Order Preservation: A Trie can be structured to maintain the order of suggestions, allowing you to easily retrieve the top 5 most relevant suggestions based on the prefix.
+-------------------------------
 3. Social Media News Feed
 You are tasked with designing a social media platform where each user has a news feed that shows posts from their friends in reverse chronological order (most recent first). Which data structure should you use to implement this feed?
+Ans . 
+To implement a social media news feed that displays posts from friends in reverse chronological order, a suitable data structure would be a linked list or a deque (double-ended queue). 
+Both structures allow for efficient insertion of new posts at the front and enable traversal in reverse order.
+
+
+--------------------------------
 
 4. Undo Operation in a Text Editor
 You are implementing a text editor that allows users to undo their last operations. What data structure would you use to implement the undo functionality efficiently?
+ans . 
+To implement the undo functionality efficiently in a text editor, you should use a stack data structure. Each operation performed by the user (like typing, deleting, or formatting) can be pushed onto the stack.
+When the user initiates an undo action, the most recent operation can be popped from the stack, allowing the text editor to revert to the previous state effectively.
 
+----------------------------
 5. Traffic Signal Simulation
 In a traffic signal simulation, vehicles are waiting at a red light, and they should pass the intersection in the order they arrived. Which data structure would be most suitable to manage the vehicles waiting at the signal?
+Ans .In a traffic signal simulation where vehicles should pass the intersection in the order they arrived, a queue data structure would be the most suitable. 
+Queues operate on a First-In-First-Out (FIFO) basis, ensuring that the vehicles that arrive first are the ones that get to pass through the intersection first, effectively managing the flow of traffic at the signal.
 
+------------------------------
 6. Flight Reservation System
 You need to design a system where each flight has a limited number of seats. The system should quickly tell if a seat is available, allow booking a seat, or cancel a reservation. What data structure should you use to store the available and booked seats?
-
+----------------------------------
 7. Browser History Navigation
 In a web browser, users should be able to navigate back and forth between web pages they visited. Which data structure would you use to implement this feature?
+Ans . 
+To implement browser history navigation, we need to allow users to navigate back to previously visited pages and forward to pages they moved away from, while maintaining the correct sequence of navigation. 
+The ideal solution is to use two stacks.
 
+2. Doubly Linked List:
+If the list of pages needs to be traversed both backward and forward with no explicit stacks, a doubly linked list can represent the browser history.
+Each node points to the previous and next pages.
+
+3.Deque (Double-Ended Queue):
+Combines the features of stacks and queues.
+Can be used to manage back and forward operations efficiently.
+---------------------------------------
 8. Efficient Data Retrieval by Key
 You are designing a system where you need to store large amounts of data and retrieve it efficiently using a unique key, such as a product catalog with unique IDs. Which data structure is best suited for this?
+Ans.
 
+The best data structure for efficiently storing and retrieving large amounts of data using a unique key is a Hash Table (or a dictionary in Python).
+Hash tables provide average O(1) time complexity for lookups, insertions, and deletions.
+
+Tree-Based Structures (e.g., AVL Tree, B-Tree):
+Use if you need to maintain the data in sorted order for range queries (e.g., retrieving products in a price range).
+Time complexity: O(log N) for insertions, deletions, and lookups.
+
+
+
+-------------------------------------
 9. Stock Price Monitoring
 You are tasked with building a system to monitor stock prices. At any point, you need to efficiently retrieve the minimum or maximum stock price recorded in the last hour. What data structure would you use?
+Ans. 
 
+
+-----------------------------------------
 10. File System Organization
 You are designing a hierarchical file system where directories can contain subdirectories and files. The system should allow efficient traversal and search for files. Which data structure is the most appropriate for this?
+Ans .
 
+
+--------------------------------------------
 11. Customer Support System
 You are building a customer support system where queries are resolved in the order they are received, but high-priority queries should be addressed before others. Which data structure would you use to implement this?
+Ans . 
 
+
+---------------------------------------------
